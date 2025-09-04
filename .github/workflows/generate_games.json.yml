@@ -7,6 +7,8 @@ jobs:
       - run: node --version
       - run: npm --version
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # Allow custom token for pushing
       - run: cd $GITHUB_WORKSPACE
       - run: cd fetch-exit-game-data
       - run: npm install
