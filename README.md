@@ -72,7 +72,7 @@ npm install
 npm fetch-exit-games.js
 ```
 
-4. Copy the generated ```games.json``` to the React app
+4. Copy the generated `games.json` to the React app
 ```bash
 cp games.json ../src/data/games.json
 ```
