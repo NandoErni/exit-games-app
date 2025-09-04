@@ -7,8 +7,6 @@ const SEARCH_URL =
   "https://boardgamegeek.com/xmlapi2/search?query=EXIT%3A%20Das%20Spiel&type=boardgame";
 const THING_URL = "https://boardgamegeek.com/xmlapi2/thing";
 
-const FILE_DEST = "exit-games-app/src/data/games.json";
-
 // Matches variants like "EXIT: Das Spiel – …", "EXIT – Das Spiel …", even with ® and different dashes
 const EXIT_DE_REGEX = /^EXIT(?:\s*®)?\s*[:\-–]\s*Das Spiel\b/i;
 
@@ -81,7 +79,7 @@ async function main() {
   // Optional: keep only those that matched the German prefix (defensive)
   allGames = allGames.filter((g) => EXIT_DE_REGEX.test(g.title || ""));
 
-  fs.writeFileSync(FILE_DEST, JSON.stringify(allGames, null, 2));
+  fs.writeFileSync('games.json', JSON.stringify(allGames, null, 2));
   console.log("✅ Saved games.json with", allGames.length, "games.");
 }
 

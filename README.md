@@ -45,14 +45,34 @@ npm run dev
 ```
 
 
-## Project Structure
-```bash
-src/
- ├─ components/       # Reusable UI components (Cards, Buttons)
- │    └─ GameCard.tsx
- ├─ data/             # Pre-scraped games JSON
- │    └─ games.json
- ├─ App.tsx           # Main app with filter & sort logic
- └─ main.tsx          # React DOM entry
+## Node.js scraper (`/fetch-exit-game-data/`)
 
+To avoid repeatedly hitting the BoardGameGeek API and save bandwidth, the **list of current EXIT games** is generated using a **separate Node.js script**:
+
+- Location: `/fetch-exit-game-data/`
+- Output: `games.json` in `src/data/`
+- Function: Fetches all current EXIT games from BGG, extracts German titles, images, difficulty, and links.
+
+### How to update `games.json`
+
+1. Navigate to the scraper folder:
+
+```bash
+cd fetch-exit-game-data
+```
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the script:
+
+```bash
+npm fetch-exit-games.js
+```
+
+4. Copy the generated ```games.json``` to the React app
+```bash
+cp games.json ../src/data/games.json
 ```
