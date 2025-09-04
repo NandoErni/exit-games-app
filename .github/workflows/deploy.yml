@@ -1,5 +1,11 @@
 name: Deploy to server via ftp
-on: push
+on: 
+    push:
+    workflow_run:
+      workflows: ["Regenerate games.json"]
+      types:
+        - completed
+  
 jobs:
   deploy:
     runs-on: ubuntu-latest
