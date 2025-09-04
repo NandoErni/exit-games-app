@@ -3,7 +3,7 @@
 A **React + Vite + TypeScript** app to manage and explore **EXIT: Das Spiel** board games.  
 Features include filtering by difficulty, sorting by title/year/difficulty, and linking to BoardGameGeek pages.
 
-![EXIT Games Screenshot](screenshot.png)
+![EXIT Games Screenshot](screenshots/image.png)
 
 ## Features
 
@@ -30,3 +30,29 @@ Features include filtering by difficulty, sorting by title/year/difficulty, and 
 ```bash
 git clone https://github.com/your-username/exit-games-app.git
 cd exit-games-app
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
+
+```bash
+npm run dev
+```
+
+
+## Project Structure
+```bash
+src/
+ ├─ components/       # Reusable UI components (Cards, Buttons)
+ │    └─ GameCard.tsx
+ ├─ data/             # Pre-scraped games JSON
+ │    └─ games.json
+ ├─ App.tsx           # Main app with filter & sort logic
+ └─ main.tsx          # React DOM entry
+
+```
