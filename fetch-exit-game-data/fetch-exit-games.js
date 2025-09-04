@@ -44,7 +44,7 @@ async function fetchGameDetails(ids) {
       game.statistics?.[0]?.ratings?.[0]?.averageweight?.[0]?.$.value || null;
 
     return {
-      id: game.$.id,
+      id: parseInt(game.$.id),
       title,              // German only
       year,
       image,

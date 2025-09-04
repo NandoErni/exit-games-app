@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
 interface Game {
-  id: string;
+  id: number;
   title: string;
   year?: number;
   image?: string;

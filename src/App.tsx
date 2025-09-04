@@ -1,16 +1,17 @@
 import { useState, useEffect } from "react";
-import GameCard from "./components/game-card";
 import gamesData from "./data/games.json";
+import myGamesData from "./data/mygames.json";
 import { ThemeProvider } from "@/components/theme-provider"
 import { ModeToggle } from "@/components/mode-toggle";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "./components/ui/badge";
+import Games from "./components/games";
 
 export default function App() {
   const [games, setGames] = useState<typeof gamesData>([]);
 
   useEffect(() => {
-    setGames(gamesData);
+    setGames(gamesData.filter((game) => !game.title.includes("Kids") && !game.title.includes("Family")));
   }, []);
 
   return (
@@ -21,16 +22,15 @@ export default function App() {
           <ModeToggle />
         </div>
 
-        <Separator className="mb-6" />
 
-        <Badge className="mb-6">Total Games: {games.length}</Badge>
-
-        {/* Grid of cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 justify-center gap-6">
-          {games.sort((a, b) => a.year - b.year).map((game) => (
-            <GameCard key={game.id} game={game} />
-          ))}
+        <div className="flex items-center space-x-4">
+              <Badge className="mb-6">Total Games: {games.length}</Badge>
+              <Badge className="mb-6">Games played: {myGamesData.gameIDsPlayed.length}</Badge>
+              <Badge className="mb-6">Games owned: {myGamesData.gameIDsOwned.length}</Badge>
         </div>
+        
+        <Separator className="mb-6" />
+        <Games games={games} />
       </div>
     </ThemeProvider>
   );
