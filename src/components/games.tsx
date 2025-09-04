@@ -21,7 +21,7 @@ const gameFilters = [
 type GameFilter = (typeof gameFilters)[number];
 
 const filterFunctions: Record<GameFilter, (game: Game) => boolean> = {
-  "all": (game) => true,
+  "all": () => true,
   //"einsteiger": (game) => true,
   //"fortgeschrittene": (game) => true,
   //"profi": (game) => true,
@@ -37,7 +37,7 @@ export default function Games({ games }: GamesProps) {
 
   return (
     <>
-      <div className="flex items-center space-x-2 mb-6">
+      <div className="flex items-center space-x-2 space-y-2 mb-6 flex-wrap justify-center">
         {gameFilters.map((filter) => (
           <Badge
             key={filter}
