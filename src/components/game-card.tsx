@@ -31,7 +31,7 @@ export default function GameCard({ game }: Props) {
           href={game.bgg_url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-500 underline text-sm mt-1 block"
+          className="text-ring underline text-sm mt-1 block"
         >
           BGG page
         </a>
