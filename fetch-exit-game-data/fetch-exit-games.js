@@ -41,7 +41,7 @@ async function fetchGameDetails(ids) {
     const year = parseInt(game.yearpublished?.[0]?.$.value) || null;
     const image = game.image?.[0] || null;
     const weight =
-      game.statistics?.[0]?.ratings?.[0]?.averageweight?.[0]?.$.value || null;
+      parseFloat( game.statistics?.[0]?.ratings?.[0]?.averageweight?.[0]?.$.value);
 
     return {
       id: parseInt(game.$.id),

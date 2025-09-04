@@ -1,41 +1,35 @@
 import { useState } from "react";
-import GameCard from "./game-card";
+import GameCard, { type Game } from "./game-card";
 import { Badge } from "./ui/badge";
 import myGamesData from "@/data/mygames.json";
 
-interface Game {
-  id: number;
-  title: string;
-  year: number;
-  image?: string;
-  difficulty?: string;
-  bgg_url?: string;
-}
 
 interface GamesProps {
   games: Game[];
 }
 const gameFilters = [
   "all",
-  "einsteiger",
-  "fortgeschrittene",
-  "profi",
+  //"einsteiger",
+  //"fortgeschrittene",
+  //"profi",
   "not-owned",
   "owned",
   "played",
   "not-played",
+  "advent-calendar"
 ] as const;
 type GameFilter = (typeof gameFilters)[number];
 
 const filterFunctions: Record<GameFilter, (game: Game) => boolean> = {
-  all: (game) => true,
-  einsteiger: (game) => true,
-  fortgeschrittene: (game) => true,
-  profi: (game) => true,
+  "all": (game) => true,
+  //"einsteiger": (game) => true,
+  //"fortgeschrittene": (game) => true,
+  //"profi": (game) => true,
   "not-owned": (game) => !myGamesData.gameIDsOwned.includes(game.id),
-  owned: (game) => myGamesData.gameIDsOwned.includes(game.id),
-  played: (game) => myGamesData.gameIDsPlayed.includes(game.id),
+  "owned": (game) => myGamesData.gameIDsOwned.includes(game.id),
+  "played": (game) => myGamesData.gameIDsPlayed.includes(game.id),
   "not-played": (game) => !myGamesData.gameIDsPlayed.includes(game.id),
+  "advent-calendar": (game) => game.title.toLowerCase().includes("adventskalender"),
 };
 
 export default function Games({ games }: GamesProps) {

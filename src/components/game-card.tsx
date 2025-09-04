@@ -1,11 +1,11 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
-interface Game {
+export interface Game {
   id: number;
   title: string;
-  year?: number;
+  year: number;
   image?: string;
-  difficulty?: string;
+  difficulty: number;
   bgg_url?: string;
 }
 
