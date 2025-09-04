@@ -13,7 +13,7 @@ jobs:
         working-directory: fetch-exit-game-data
 
       - name: Generate games.json
-        run: npm run build
+        run: node fetch-exit-games.js
         working-directory: fetch-exit-game-data
 
       - name: Copy games.json to src/data
