@@ -20,13 +20,13 @@ jobs:
 
       - name: Copy games.json to src/data
         run: cp fetch-exit-game-data/games.json src/data/games.json
-        
+
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data/games.json
-          git diff --cached --quiet || git commit -m "Update games.json [skip ci]"
-          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" main
+          git commit -m "Update games.json [skip ci]" || echo "No changes to commit"
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
