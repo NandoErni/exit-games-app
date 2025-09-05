@@ -11,6 +11,7 @@ import {
 import { useState } from "react";
 import myGamesData from "@/data/mygames.json";
 import { ScrollArea } from "./ui/scroll-area";
+import { Badge } from "./ui/badge";
 
 export interface Game {
   id: number;
@@ -34,6 +35,13 @@ type GameMetaData = {
   stars: number;
   bestPuzzle: string;
   mostDifficultPuzzle: string;
+  mostBeautifulMoment: string;
+};
+
+const dateTimeFormatOptions: Intl.DateTimeFormatOptions = {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
 };
 
 export default function GameCard({ game }: Props) {
@@ -77,7 +85,12 @@ export default function GameCard({ game }: Props) {
             <DrawerTitle>{game.title}</DrawerTitle>
             {hasBeenSolved ? (
               <DrawerDescription className="text-success">
-                This case has already been solved
+                This case has been solved on{" "}
+                {new Date(gameMetaData?.date).toLocaleDateString(
+                  "en-GB",
+                  dateTimeFormatOptions
+                )}{" "}
+                at {gameMetaData?.location} in {gameMetaData?.time}
               </DrawerDescription>
             ) : hasBeenBought ? (
               <DrawerDescription className="text-destructive">
@@ -99,12 +112,18 @@ export default function GameCard({ game }: Props) {
             )}
             {hasBeenSolved && (
               <div className="text-center mb-4">
-                <p className="mb-2">
-                  This case was solved on: {gameMetaData?.date} with{" "}
-                  {gameMetaData?.players.join(", ")}
-                </p>
-                <p className="mb-2">Location: {gameMetaData?.location}</p>
-                <p className="mb-2">Time taken: {gameMetaData?.time}</p>
+                <div className="mb-2 flex justify-center flex-wrap gap-1">
+                {
+                  gameMetaData?.players.map((player) => (
+                    <Badge
+                      key={player}
+                      variant={"secondary"}
+                    >
+                      {player}
+                    </Badge>
+                  ))
+                }
+                </div>
                 <p className="mb-2">
                   Help cards used: {gameMetaData?.helpCardsUsed || 0}
                 </p>
@@ -114,13 +133,21 @@ export default function GameCard({ game }: Props) {
                     ? "⭐".repeat(gameMetaData.stars)
                     : "N/A"}
                 </p>
-                <p className="mb-2">
-                  Best puzzle: {gameMetaData?.bestPuzzle || "N/A"}
-                </p>
-                <p className="mb-2">
-                  Most difficult puzzle:{" "}
-                  {gameMetaData?.mostDifficultPuzzle || "N/A"}
-                </p>
+                {gameMetaData?.bestPuzzle && (
+                  <p className="mb-2">Best puzzle: {gameMetaData.bestPuzzle}</p>
+                )}
+
+                {gameMetaData?.mostDifficultPuzzle && (
+                  <p className="mb-2">
+                    Most difficult puzzle: {gameMetaData.mostDifficultPuzzle}
+                  </p>
+                )}
+
+                {gameMetaData?.mostBeautifulMoment && (
+                  <p className="mb-2">
+                    Best moment: {gameMetaData.mostBeautifulMoment}
+                  </p>
+                )}
               </div>
             )}
           </ScrollArea>

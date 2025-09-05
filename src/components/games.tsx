@@ -16,7 +16,8 @@ const gameFilters = [
   "owned",
   "played",
   "not-played",
-  "advent-calendar"
+  "advent-calendar",
+  "puzzles",
 ] as const;
 type GameFilter = (typeof gameFilters)[number];
 
@@ -30,6 +31,7 @@ const filterFunctions: Record<GameFilter, (game: Game) => boolean> = {
   "played": (game) => game.id in myGamesData.gameIDsPlayed,
   "not-played": (game) => !(game.id in myGamesData.gameIDsPlayed),
   "advent-calendar": (game) => game.title.toLowerCase().includes("adventskalender"),
+  "puzzles": (game) => game.title.toLowerCase().includes("puzzle"),
 };
 
 export default function Games({ games }: GamesProps) {

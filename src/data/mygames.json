@@ -14,47 +14,52 @@
       "helpCardsUsed": 1,
       "stars": 10,
       "bestPuzzle": "",
-      "mostDifficultPuzzle": ""
+      "mostDifficultPuzzle": "",
+      "mostBeautifulMoment": ""
     },
     "226522": {
-      "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "players": ["Nando Erni", "Kally Künnap", "Timon Weder"],
+      "date": "2025-08-31",
       "location": "El Winti Gayes",
-      "time": "75:50",
-      "helpCardsUsed": 0,
-      "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "time": "56:56",
+      "helpCardsUsed": 1,
+      "stars": 10,
+      "bestPuzzle": "Drehscheibe",
+      "mostDifficultPuzzle": "☆ Karte Bemalen",
+      "mostBeautifulMoment": ""
     },
     "445019": {
       "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "date": "2025-08-31",
       "location": "El Winti Gayes",
-      "time": "75:50",
+      "time": "71:27",
       "helpCardsUsed": 0,
       "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "bestPuzzle": "Fall auflösen",
+      "mostDifficultPuzzle": "\"Er führt seine drei Schwerter ein\"",
+      "mostBeautifulMoment": ""
     },
     "215842": {
-      "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "players": ["Nando Erni", "Kally Künnap", "Timon Weder"],
+      "date": "2025-08-31",
       "location": "El Winti Gayes",
-      "time": "75:50",
+      "time": "66:36",
       "helpCardsUsed": 0,
       "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "bestPuzzle": "Kunstschnee",
+      "mostDifficultPuzzle": "Monsterzahl",
+      "mostBeautifulMoment": ""
     },
     "244918": {
       "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "date": "2025-01-25",
       "location": "El Winti Gayes",
-      "time": "75:50",
+      "time": "32:20",
       "helpCardsUsed": 0,
-      "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "stars": 10,
+      "bestPuzzle": "Scheibenkleister",
+      "mostDifficultPuzzle": "Scheibenkleister",
+      "mostBeautifulMoment": ""
     },
     "269968": {
       "players": ["Nando Erni", "Kally Künnap"],
@@ -64,37 +69,41 @@
       "helpCardsUsed": 0,
       "stars": 10,
       "bestPuzzle": "Kürbis-Decodier-Scheibe",
-      "mostDifficultPuzzle": "Mini-Monster"
+      "mostDifficultPuzzle": "Mini-Monster",
+      "mostBeautifulMoment": ""
     },
     "295944": {
       "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "date": "2025-01-25",
       "location": "El Winti Gayes",
-      "time": "75:50",
-      "helpCardsUsed": 0,
-      "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "time": "74:5",
+      "helpCardsUsed": 2,
+      "stars": 8,
+      "bestPuzzle": "☆ 7 Zwerge Sitzplätze",
+      "mostDifficultPuzzle": "Scheiss Lebkueche",
+      "mostBeautifulMoment": ""
     },
     "317432": {
       "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "date": "2025-06-04",
       "location": "El Winti Gayes",
-      "time": "75:50",
-      "helpCardsUsed": 0,
-      "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "time": "78:27",
+      "helpCardsUsed": 3,
+      "stars": 6,
+      "bestPuzzle": "Versteckte Zahlen",
+      "mostDifficultPuzzle": "Schlangen",
+      "mostBeautifulMoment": ""
     },
     "366318": {
-      "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "players": ["Nando Erni", "Kally Künnap", "Timon Weder"],
+      "date": "2024-12-15",
       "location": "El Winti Gayes",
-      "time": "75:50",
-      "helpCardsUsed": 0,
-      "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "time": "153:33",
+      "helpCardsUsed": 14,
+      "stars": 1,
+      "bestPuzzle": "Schussbahn",
+      "mostDifficultPuzzle": "",
+      "mostBeautifulMoment": "Dass es vorbei ist"
     },
     "203417": {
       "players": ["Nando Erni", "Kally Künnap"],
@@ -104,77 +113,85 @@
       "helpCardsUsed": 2,
       "stars": 7,
       "bestPuzzle": "Länder",
-      "mostDifficultPuzzle": "∟╚ Topf"
+      "mostDifficultPuzzle": "∟ Topf",
+      "mostBeautifulMoment": ""
     },
     "341573": {
-      "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "players": ["Nando Erni", "Kally Künnap", "Lauro Fluri"],
+      "date": "2025-01-31",
       "location": "El Winti Gayes",
-      "time": "75:50",
-      "helpCardsUsed": 0,
-      "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "time": "89:11",
+      "helpCardsUsed": 2,
+      "stars": 7,
+      "bestPuzzle": "Mittelerde (Karte)",
+      "mostDifficultPuzzle": "Taverne",
+      "mostBeautifulMoment": ""
     },
     "295945": {
       "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "date": "2025-01-25",
       "location": "El Winti Gayes",
-      "time": "75:50",
-      "helpCardsUsed": 0,
-      "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "time": "83:5",
+      "helpCardsUsed": 4,
+      "stars": 5,
+      "bestPuzzle": "Werbung-Rätsel & Stammbaum",
+      "mostDifficultPuzzle": "Lied vom Tod (-> Man darf alles anschauen?)",
+      "mostBeautifulMoment": ""
     },
     "226518": {
       "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "date": "2025-01-24",
       "location": "El Winti Gayes",
-      "time": "75:50",
+      "time": "51:31",
       "helpCardsUsed": 0,
-      "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "stars": 10,
+      "bestPuzzle": "Edelsteine",
+      "mostDifficultPuzzle": "Stern - letzte Ruhe - Stätte v. Santa Maria",
+      "mostBeautifulMoment": ""
     },
     "298281": {
       "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "date": "2025-02-01",
       "location": "El Winti Gayes",
-      "time": "75:50",
+      "time": "114:49",
       "helpCardsUsed": 0,
       "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "bestPuzzle": "Schmetterlinge",
+      "mostDifficultPuzzle": "Karte",
+      "mostBeautifulMoment": ""
     },
     "437214": {
       "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "date": "2025-05-16",
       "location": "El Winti Gayes",
-      "time": "75:50",
-      "helpCardsUsed": 0,
-      "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "time": "91:37",
+      "helpCardsUsed": 3,
+      "stars": 6,
+      "bestPuzzle": "Box Zerstören",
+      "mostDifficultPuzzle": "",
+      "mostBeautifulMoment": "Strasse & Häuser Sehen"
     },
     "376477": {
       "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "date": "2025-01-18",
       "location": "El Winti Gayes",
-      "time": "75:50",
-      "helpCardsUsed": 0,
+      "time": "60:00",
+      "helpCardsUsed": 2,
       "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "bestPuzzle": "Polterbolde-Illusion",
+      "mostDifficultPuzzle": "3 Sterne",
+      "mostBeautifulMoment": ""
     },
     "226519": {
       "players": ["Nando Erni", "Kally Künnap"],
-      "date": "2025-",
+      "date": "2025-01-26",
       "location": "El Winti Gayes",
-      "time": "75:50",
+      "time": "28:07",
       "helpCardsUsed": 0,
-      "stars": 9,
-      "bestPuzzle": "Puzzle with 3 locks",
-      "mostDifficultPuzzle": "Puzzle with the box"
+      "stars": 10,
+      "bestPuzzle": "Turnübungen & Box-Zahlen",
+      "mostDifficultPuzzle": "T-shirt",
+      "mostBeautifulMoment": ""
     }
   }
 }
