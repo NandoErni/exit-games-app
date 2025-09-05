@@ -1,54 +1,180 @@
 {
-    "gameIDsOwned": [
-        255675,
-        283797,
-        341583,
-        341583,
-        283934,
-        269967,
-        324853,
-        356313,
-        376478,
-        383479,
-        226520,
-        215841,
-        215840,
-        298282,
-        333516,
-        226522,
-        445019,
-        215842,
-        244918,
-        269968,
-        295944,
-        317432,
-        366318,
-        203417,
-        341573,
-        295945,
-        226518,
-        298281,
-        437214,
-        376477,
-        226519
-    ],
-    "gameIDsPlayed": [
-        333516,
-        226522,
-        445019,
-        215842,
-        244918,
-        269968,
-        295944,
-        317432,
-        366318,
-        203417,
-        341573,
-        295945,
-        226518,
-        298281,
-        437214,
-        376477,
-        226519
-    ]
+  "gameIDsOwned": [
+    255675, 283797, 341583, 341583, 283934, 269967, 324853, 356313, 376478,
+    383479, 226520, 215841, 215840, 298282, 333516, 226522, 445019, 215842,
+    244918, 269968, 295944, 317432, 366318, 203417, 341573, 295945, 226518,
+    298281, 437214, 376477, 226519
+  ],
+  "gameIDsPlayed": {
+    "333516": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "226522": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "445019": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "215842": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "244918": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "269968": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "295944": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "317432": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "366318": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "203417": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "341573": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "295945": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "226518": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "298281": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "437214": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "376477": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    },
+    "226519": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2024-06-15",
+      "location": "at home",
+      "time": "75:50",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Puzzle with 3 locks",
+      "mostDifficultPuzzle": "Puzzle with the box"
+    }
+  }
 }

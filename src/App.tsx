@@ -25,7 +25,7 @@ export default function App() {
 
         <div className="flex items-center space-x-4">
               <Badge className="mb-6">Total Games: {games.length}</Badge>
-              <Badge className="mb-6">Games played: {myGamesData.gameIDsPlayed.length}</Badge>
+              <Badge className="mb-6">Games played: {Object.keys(myGamesData.gameIDsPlayed).length}</Badge>
               <Badge className="mb-6">Games owned: {myGamesData.gameIDsOwned.length}</Badge>
         </div>
         

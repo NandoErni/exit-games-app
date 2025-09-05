@@ -27,8 +27,8 @@ const filterFunctions: Record<GameFilter, (game: Game) => boolean> = {
   //"profi": (game) => true,
   "not-owned": (game) => !myGamesData.gameIDsOwned.includes(game.id),
   "owned": (game) => myGamesData.gameIDsOwned.includes(game.id),
-  "played": (game) => myGamesData.gameIDsPlayed.includes(game.id),
-  "not-played": (game) => !myGamesData.gameIDsPlayed.includes(game.id),
+  "played": (game) => game.id in myGamesData.gameIDsPlayed,
+  "not-played": (game) => !(game.id in myGamesData.gameIDsPlayed),
   "advent-calendar": (game) => game.title.toLowerCase().includes("adventskalender"),
 };
 
@@ -37,7 +37,7 @@ export default function Games({ games }: GamesProps) {
 
   return (
     <>
-      <div className="flex items-center space-x-2 space-y-2 mb-6 flex-wrap justify-center">
+      <div className="flex items-center gap-2 mb-6 flex-wrap justify-center">
         {gameFilters.map((filter) => (
           <Badge
             key={filter}
@@ -51,7 +51,7 @@ export default function Games({ games }: GamesProps) {
       </div>
 
       {/* Grid of cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 justify-center gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 justify-center gap-6 p-4">
         {games
           .filter((game) => filterFunctions[gameFilter](game))
           .sort((a, b) => a.year - b.year)
