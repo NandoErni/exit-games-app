@@ -70,6 +70,7 @@ html, body, #root {
 
 * {
   @apply transition-colors duration-250;
+  
   scrollbar-width: none;
 }
 

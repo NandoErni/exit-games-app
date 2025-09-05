@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/drawer";
 import { useState } from "react";
 import myGamesData from "@/data/mygames.json";
+import { ScrollArea } from "./ui/scroll-area";
 
 export interface Game {
   id: number;
@@ -83,38 +84,41 @@ export default function GameCard({ game }: Props) {
               </DrawerDescription>
             )}
           </DrawerHeader>
-          {game.image && (
-            <img
-              src={game.image}
-              alt={game.title}
-              className="w-full h-48 object-contain rounded mb-2"
-            />
-          )}
-          {hasBeenSolved && (
-            <div className="text-center mb-4">
-              <p className="mb-2">
-                This case was solved on: {gameMetaData?.date} with{" "}
-                {gameMetaData?.players.join(", ")}
-              </p>
-              <p className="mb-2">Location: {gameMetaData?.location}</p>
-              <p className="mb-2">Time taken: {gameMetaData?.time}</p>
-              <p className="mb-2">
-                Help cards used: {gameMetaData?.helpCardsUsed || 0}
-              </p>
-              <p className="mb-2">
-                Stars:{" "}
-                {gameMetaData?.stars ? "⭐".repeat(gameMetaData.stars) : "N/A"}
-              </p>
-              <p className="mb-2">
-                Best puzzle: {gameMetaData?.bestPuzzle || "N/A"}
-              </p>
-              <p className="mb-2">
-                Most difficult puzzle:{" "}
-                {gameMetaData?.mostDifficultPuzzle || "N/A"}
-              </p>
-            </div>
-          )}
-
+          <ScrollArea className="flex-1 overflow-y-auto px-4">
+            {game.image && (
+              <img
+                src={game.image}
+                alt={game.title}
+                className="w-full h-48 object-contain rounded mb-2"
+              />
+            )}
+            {hasBeenSolved && (
+              <div className="text-center mb-4">
+                <p className="mb-2">
+                  This case was solved on: {gameMetaData?.date} with{" "}
+                  {gameMetaData?.players.join(", ")}
+                </p>
+                <p className="mb-2">Location: {gameMetaData?.location}</p>
+                <p className="mb-2">Time taken: {gameMetaData?.time}</p>
+                <p className="mb-2">
+                  Help cards used: {gameMetaData?.helpCardsUsed || 0}
+                </p>
+                <p className="mb-2">
+                  Stars:{" "}
+                  {gameMetaData?.stars
+                    ? "⭐".repeat(gameMetaData.stars)
+                    : "N/A"}
+                </p>
+                <p className="mb-2">
+                  Best puzzle: {gameMetaData?.bestPuzzle || "N/A"}
+                </p>
+                <p className="mb-2">
+                  Most difficult puzzle:{" "}
+                  {gameMetaData?.mostDifficultPuzzle || "N/A"}
+                </p>
+              </div>
+            )}
+          </ScrollArea>
           <DrawerFooter>
             <DrawerClose>Close</DrawerClose>
           </DrawerFooter>
