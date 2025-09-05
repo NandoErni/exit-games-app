@@ -1,5 +1,8 @@
 name: Regenerate games.json
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: "33 10 * * *"
 jobs:
   generate:
     runs-on: ubuntu-latest
