@@ -4,8 +4,9 @@ import myGamesData from "./data/mygames.json";
 import { ThemeProvider } from "@/components/theme-provider"
 import { ModeToggle } from "@/components/mode-toggle";
 import { Separator } from "@/components/ui/separator";
-import { Badge } from "./components/ui/badge";
-import Games from "./components/games";
+import { Badge } from "@/components/ui/badge";
+import Games from "@/components/games";
+import exitLogo from "@/assets/EXIT-Logo.png";
 
 export default function App() {
   const [games, setGames] = useState<typeof gamesData>([]);
@@ -18,12 +19,13 @@ export default function App() {
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <div className="w-full flex flex-col items-center">
         <div className="flex flex-col items-center my-5">
-          <h1 className="text-3xl font-bold text-center my-10">EXIT Spiel Collection</h1>
+          <img src={exitLogo} alt="EXIT Logo" className="p-4" />
+          <h1 className="text-sm font-light text-center mb-5">Personal Collection</h1>
           <ModeToggle />
         </div>
 
 
-        <div className="flex items-center space-x-4">
+        <div className="flex flex-wrap justify-center items-center space-x-4">
               <Badge className="mb-6">Total Games: {games.length}</Badge>
               <Badge className="mb-6">Games played: {Object.keys(myGamesData.gameIDsPlayed).length}</Badge>
               <Badge className="mb-6">Games owned: {myGamesData.gameIDsOwned.length}</Badge>

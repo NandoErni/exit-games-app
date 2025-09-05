@@ -56,7 +56,7 @@ export default function Games({ games }: GamesProps) {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-center gap-6 p-4">
         {games
           .filter((game) => filterFunctions[gameFilter](game))
-          .sort((a, b) => a.year - b.year)
+          .sort((a, b) => b.year - a.year)
           .map((game) => (
             <GameCard key={game.id} game={game} />
           ))}
