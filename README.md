@@ -2,6 +2,7 @@
 
 A **React + Vite + TypeScript** app to manage and explore **EXIT: Das Spiel** board games.  
 Features include filtering by difficulty, sorting by title/year/difficulty, and linking to BoardGameGeek pages.
+[Try it out now!](https://exit-game.nandoerni.com/)
 
 ![EXIT Games Screenshot](screenshots/image.png)
 
