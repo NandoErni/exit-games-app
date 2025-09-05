@@ -2,15 +2,16 @@
 
 A **React + Vite + TypeScript** app to manage and explore **EXIT: Das Spiel** board games.  
 Features include filtering by difficulty, sorting by title/year/difficulty, and linking to BoardGameGeek pages.
+[Try it out now!](https://exit-game.nandoerni.com/)
 
 ![EXIT Games Screenshot](screenshots/image.png)
 
 ## Features
 
+- ✅ Dark Mode!!
 - ✅ Display all EXIT games in German with cover images
 - ✅ Show year published and BGG difficulty (average weight)
-- ✅ Filter by minimum difficulty
-- ✅ Sort by title, year, or difficulty (ascending/descending)
+- ✅ Show detailed infos about a specific game
 - ✅ Responsive grid layout with TailwindCSS
 - ✅ Components powered by [shadcn/ui](https://ui.shadcn.com)
 
@@ -21,7 +22,7 @@ Features include filtering by difficulty, sorting by title/year/difficulty, and 
 - [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [shadcn/ui](https://ui.shadcn.com) (prebuilt UI components)
-- [BoardGameGeek JSON](./src/data/games.json) (scraped via Node.js)
+- [BoardGameGeek XML API](./src/data/games.json) (scraped via Node.js)
 
 ## Installation
 
