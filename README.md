@@ -8,6 +8,7 @@ Features include filtering by difficulty, sorting by title/year/difficulty, and 
 
 ## Features
 
+- ✅ Dark Mode!!
 - ✅ Display all EXIT games in German with cover images
 - ✅ Show year published and BGG difficulty (average weight)
 - ✅ Show detailed infos about a specific game
