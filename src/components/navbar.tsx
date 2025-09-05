@@ -21,8 +21,10 @@ export default function Navbar() {
 
   useEffect(() => {
     window.addEventListener("wheel", handleScroll, { passive: true });
+    window.addEventListener("touchmove", handleScroll, { passive: true });
     return () => {
       window.removeEventListener("wheel", handleScroll);
+      window.removeEventListener("touchmove", handleScroll);
     };
   }, [handleScroll]);
 
