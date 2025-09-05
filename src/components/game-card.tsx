@@ -107,32 +107,27 @@ export default function GameCard({ game }: Props) {
               <img
                 src={game.image}
                 alt={game.title}
-                className="w-full h-48 object-contain rounded mb-2"
+                className="w-full h-48 object-contain rounded mb-4"
               />
             )}
             {hasBeenSolved && (
               <div className="text-center mb-4">
                 <div className="mb-2 flex justify-center flex-wrap gap-1">
-                {
-                  gameMetaData?.players.map((player) => (
-                    <Badge
-                      key={player}
-                      variant={"secondary"}
-                    >
+                  {gameMetaData?.players.map((player) => (
+                    <Badge key={player} variant={"secondary"}>
                       {player}
                     </Badge>
-                  ))
-                }
+                  ))}
                 </div>
-                <p className="mb-2">
-                  Help cards used: {gameMetaData?.helpCardsUsed || 0}
-                </p>
-                <p className="mb-2">
-                  Stars:{" "}
-                  {gameMetaData?.stars
-                    ? "⭐".repeat(gameMetaData.stars)
-                    : "N/A"}
-                </p>
+                <div className="mb-2 flex justify-center flex-wrap gap-5">
+                  <p className="mb-2">
+                    🃏 {gameMetaData?.helpCardsUsed || 0} Help Cards
+                  </p>
+                  <p className="mb-2">
+                    ⭐ {gameMetaData?.stars || 0}
+                  </p>
+                </div>
+
                 {gameMetaData?.bestPuzzle && (
                   <p className="mb-2">Best puzzle: {gameMetaData.bestPuzzle}</p>
                 )}
