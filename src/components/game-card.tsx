@@ -42,6 +42,7 @@ export default function GameCard({ game }: Props) {
     myGamesData.gameIDsPlayed as Record<string, GameMetaData>
   )[String(game.id)];
   const hasBeenSolved = gameMetaData !== undefined;
+  const hasBeenBought = myGamesData.gameIDsOwned.includes(game.id);
 
   return (
     <>
@@ -74,9 +75,13 @@ export default function GameCard({ game }: Props) {
         <DrawerContent>
           <DrawerHeader>
             <DrawerTitle>{game.title}</DrawerTitle>
-            {game.id in myGamesData.gameIDsPlayed ? (
+            {hasBeenSolved ? (
               <DrawerDescription className="text-success">
                 This case has already been solved
+              </DrawerDescription>
+            ) : hasBeenBought ? (
+              <DrawerDescription className="text-destructive">
+                This case has not yet been solved but you own it
               </DrawerDescription>
             ) : (
               <DrawerDescription className="text-destructive">
