@@ -113,6 +113,7 @@ export default function GameCard({ game }: Props) {
             {hasBeenSolved && (
               <div className="text-center mb-4">
                 <div className="mb-4 flex justify-center flex-wrap gap-1">
+
                   {gameMetaData?.players.map((player) => (
                     <Badge key={player} variant={"secondary"}>
                       {player}
@@ -124,6 +125,7 @@ export default function GameCard({ game }: Props) {
                     🃏 {gameMetaData?.helpCardsUsed || 0} Help Cards
                   </p>
                   <p>
+
                     ⭐ {gameMetaData?.stars || 0}
                   </p>
                 </div>
