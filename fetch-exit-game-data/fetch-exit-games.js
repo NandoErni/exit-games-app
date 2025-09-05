@@ -76,9 +76,6 @@ async function main() {
     await new Promise((r) => setTimeout(r, 2000));
   }
 
-  // Optional: keep only those that matched the German prefix (defensive)
-  allGames = allGames.filter((g) => EXIT_DE_REGEX.test(g.title || ""));
-
   fs.writeFileSync('games.json', JSON.stringify(allGames, null, 2));
   console.log("✅ Saved games.json with", allGames.length, "games.");
 }
