@@ -2,7 +2,6 @@ import gamesData from "@/data/games.json";
 import myGamesData from "@/data/mygames.json";
 import { ModeToggle } from "@/components/mode-toggle";
 import { Badge } from "@/components/ui/badge";
-import exitLogo from "@/assets/EXIT-Logo.png";
 import { useCallback, useEffect, useState } from "react";
 import { cn, debounce } from "@/lib/utils";
 
