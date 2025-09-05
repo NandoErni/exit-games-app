@@ -148,9 +148,6 @@ export default function GameCard({ game }: Props) {
               </div>
             )}
           </ScrollArea>
-          <DrawerFooter>
-            <DrawerClose>Close</DrawerClose>
-          </DrawerFooter>
         </DrawerContent>
       </Drawer>
     </>
