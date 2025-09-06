@@ -192,6 +192,28 @@
       "bestPuzzle": "Turnübungen & Box-Zahlen",
       "mostDifficultPuzzle": "T-shirt",
       "mostBeautifulMoment": ""
+    },
+    "203420": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2025-09-06",
+      "location": "El Winti Gayes",
+      "time": "55:21",
+      "helpCardsUsed": 2,
+      "stars": 8,
+      "bestPuzzle": "Dominos",
+      "mostDifficultPuzzle": "Strichcode",
+      "mostBeautifulMoment": ""
+    },
+    "341583": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2025-09-06",
+      "location": "El Winti Gayes",
+      "time": "80:12",
+      "helpCardsUsed": 2,
+      "stars": 7,
+      "bestPuzzle": "Big Win",
+      "mostDifficultPuzzle": "Gemälde",
+      "mostBeautifulMoment": ""
     }
   }
 }
