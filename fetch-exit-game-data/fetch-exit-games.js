@@ -41,10 +41,11 @@ async function fetchGameDetails(ids) {
     const year = parseInt(game.yearpublished?.[0]?.$.value) || null;
     const image = game.image?.[0] || null;
     const weight =
-      parseFloat( game.statistics?.[0]?.ratings?.[0]?.averageweight?.[0]?.$.value);
+      parseFloat(game.statistics?.[0]?.ratings?.[0]?.averageweight?.[0]?.$.value);
 
     return {
       id: parseInt(game.$.id),
+      "type": "game",
       title,              // German only
       year,
       image,
@@ -75,9 +76,11 @@ async function main() {
     // polite delay to avoid throttling
     await new Promise((r) => setTimeout(r, 2000));
   }
+  const puzzles = JSON.parse(fs.readFileSync('puzzles.json', 'utf-8'));
+  allGames = allGames.concat(puzzles);
 
   fs.writeFileSync('games.json', JSON.stringify(allGames, null, 2));
-  console.log("✅ Saved games.json with", allGames.length, "games.");
+  console.log("✅ Saved games.json with", allGames.length, "games & puzzles.");
 }
 
 main().catch((err) => console.error(err));

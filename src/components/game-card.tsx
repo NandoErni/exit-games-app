@@ -67,14 +67,16 @@ export default function GameCard({ game }: Props) {
           )}
           <p className="text-sm">Year: {game.year || "N/A"}</p>
           <p className="text-sm">Difficulty: {game.difficulty || "N/A"}</p>
-          <a
-            href={game.bgg_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-ring underline text-sm mt-1 block"
-          >
-            BGG page
-          </a>
+          {game.bgg_url && (
+            <a
+              href={game.bgg_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-ring underline text-sm mt-1 block"
+            >
+              BGG page
+            </a>
+          )}
         </CardContent>
       </Card>
       <Drawer open={open} onOpenChange={setOpen}>
@@ -111,7 +113,6 @@ export default function GameCard({ game }: Props) {
             {hasBeenSolved && (
               <div className="text-center mb-4">
                 <div className="mb-4 flex justify-center flex-wrap gap-1">
-
                   {gameMetaData?.players.map((player) => (
                     <Badge key={player} variant={"secondary"}>
                       {player}
@@ -119,13 +120,8 @@ export default function GameCard({ game }: Props) {
                   ))}
                 </div>
                 <div className="mb-2 flex justify-center flex-wrap gap-5">
-                  <p>
-                    🃏 {gameMetaData?.helpCardsUsed || 0} Help Cards
-                  </p>
-                  <p>
-
-                    ⭐ {gameMetaData?.stars || 0}
-                  </p>
+                  <p>🃏 {gameMetaData?.helpCardsUsed || 0} Help Cards</p>
+                  <p>⭐ {gameMetaData?.stars || 0}</p>
                 </div>
 
                 {gameMetaData?.bestPuzzle && (

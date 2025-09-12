@@ -1,6 +1,7 @@
 [
   {
     "id": 333516,
+    "type": "game",
     "title": "EXIT: Das Spiel + Puzzle – Das dunkle Schloss",
     "year": 2021,
     "image": "https://cf.geekdo-images.com/K_MwaxEHSTSPo7c00D8Kjg__original/img/wzP0K88VPI5hiBdw90BW7kc9wEQ=/0x0/filters:format(jpeg)/pic6630221.jpg",
@@ -9,6 +10,7 @@
   },
   {
     "id": 356312,
+    "type": "game",
     "title": "EXIT: Das Spiel + Puzzle – Das Gold der Piraten",
     "year": 2022,
     "image": "https://cf.geekdo-images.com/8wdYh_CrOxwZawca9Sz-pg__original/img/_Ete6oPqvE1EZpEH8xN777DVLhg=/0x0/filters:format(jpeg)/pic6947567.jpg",
@@ -17,6 +19,7 @@
   },
   {
     "id": 298282,
+    "type": "game",
     "title": "EXIT: Das Spiel + Puzzle – Der einsame Leuchtturm",
     "year": 2020,
     "image": "https://cf.geekdo-images.com/N4TEqRBnrlSFqBzaESWnfA__original/img/4gBGw7Fj3T8iouaDcex_xC9q4CQ=/0x0/filters:format(jpeg)/pic5988904.jpg",
@@ -25,6 +28,7 @@
   },
   {
     "id": 298281,
+    "type": "game",
     "title": "EXIT: Das Spiel + Puzzle – Der verschollene Tempel",
     "year": 2020,
     "image": "https://cf.geekdo-images.com/2G_lBcFfgiEo8ubbtE7J5g__original/img/ccDPKNYMBMolisTQY6xTbBL7XYo=/0x0/filters:format(jpeg)/pic5988905.jpg",
@@ -33,6 +37,7 @@
   },
   {
     "id": 437214,
+    "type": "game",
     "title": "EXIT: Das Spiel – Abenteuer auf Catan",
     "year": 2025,
     "image": "https://cf.geekdo-images.com/F9um-wRhVGfyYoSlrxq2iA__original/img/SvkR0wTW6gXdy0M1fvBZ1PnNOLA=/0x0/filters:format(jpeg)/pic8664826.jpg",
@@ -41,6 +46,7 @@
   },
   {
     "id": 430765,
+    "type": "game",
     "title": "EXIT: Das Spiel – Adventskalender 2024: Das intergalaktische Wettrennen",
     "year": 2024,
     "image": "https://cf.geekdo-images.com/cd1MItrrAgXI5CRzlClLOQ__original/img/X_x7LyIfsgH1gAYrJBeCEjwYBSs=/0x0/filters:format(jpeg)/pic8647742.jpg",
@@ -49,6 +55,7 @@
   },
   {
     "id": 356314,
+    "type": "game",
     "title": "EXIT: Das Spiel – Adventskalender: Der lautlose Sturm",
     "year": 2022,
     "image": "https://cf.geekdo-images.com/bHGhN9Z5GzvdmOxH46Tlvw__original/img/Dzw_JlNV4ijNUlKc-t_f34mdkRs=/0x0/filters:format(jpeg)/pic7233518.jpg",
@@ -57,6 +64,7 @@
   },
   {
     "id": 394735,
+    "type": "game",
     "title": "EXIT: Das Spiel – Adventskalender: Der verschwundene Hollywood-Star",
     "year": 2023,
     "image": "https://cf.geekdo-images.com/jZPzyGCFRZvIE50-EnXhCQ__original/img/pdUHq1GJQjyOBO6u_24Ft-P69o0=/0x0/filters:format(jpeg)/pic8534389.jpg",
@@ -65,6 +73,7 @@
   },
   {
     "id": 445020,
+    "type": "game",
     "title": "EXIT: Das Spiel – Adventskalender: Der Zauber von Weihnachten",
     "year": 2025,
     "image": "https://cf.geekdo-images.com/n1ajxyfA3YqJz6OVng4QkA__original/img/TunZDGEas4V280uGLHY__FU7ibc=/0x0/filters:format(png)/pic8904572.png",
@@ -73,6 +82,7 @@
   },
   {
     "id": 317434,
+    "type": "game",
     "title": "EXIT: Das Spiel – Adventskalender: Die geheimnisvolle Eishöhle",
     "year": 2020,
     "image": "https://cf.geekdo-images.com/prwPkaW1tzOyQVJKQcyF6Q__original/img/8ZREUK7V45zI9Ta-p5UjuURE8rQ=/0x0/filters:format(jpeg)/pic6630226.jpg",
@@ -81,6 +91,7 @@
   },
   {
     "id": 343322,
+    "type": "game",
     "title": "EXIT: Das Spiel – Adventskalender: Die Jagd nach dem goldenen Buch",
     "year": 2021,
     "image": "https://cf.geekdo-images.com/nNVkEVfayrcrfOzFs_14Bw__original/img/xNfizYi4f6A9VbmPO2FDZ_Gk-wM=/0x0/filters:format(jpeg)/pic6632318.jpg",
@@ -89,6 +100,7 @@
   },
   {
     "id": 203417,
+    "type": "game",
     "title": "EXIT: Das Spiel – Das geheime Labor",
     "year": 2016,
     "image": "https://cf.geekdo-images.com/3c1Wy_dXjVZ8Fpytyf9UvQ__original/img/sAMsCqIli73aTRtMJhbaYjOeucI=/0x0/filters:format(jpeg)/pic3332425.jpg",
@@ -97,6 +109,7 @@
   },
   {
     "id": 206943,
+    "type": "game",
     "title": "EXIT: Das Spiel – Das Geheimnis der Premiere",
     "year": 2016,
     "image": "https://cf.geekdo-images.com/1KYz-QQSNMSErLBckHZCjg__original/img/NLbgY-hmMiRMCMNHLXfJRaRAKS8=/0x0/filters:format(jpeg)/pic4250751.jpg",
@@ -105,6 +118,7 @@
   },
   {
     "id": 226519,
+    "type": "game",
     "title": "EXIT: Das Spiel – Das Haus der Rätsel",
     "year": 2017,
     "image": "https://cf.geekdo-images.com/d4SNDcojFMAkyq7CVSn6uQ__original/img/T0RMBs8s8RJ_ILtkQMr7bWYg6BQ=/0x0/filters:format(jpeg)/pic4597126.jpg",
@@ -113,6 +127,7 @@
   },
   {
     "id": 244918,
+    "type": "game",
     "title": "EXIT: Das Spiel – Das mysteriöse Museum",
     "year": 2018,
     "image": "https://cf.geekdo-images.com/gqM01rOEIl3jiXbJaQTriA__original/img/pBg7vLQwuNuuNMEP7-XIlHxwZ3E=/0x0/filters:format(jpeg)/pic3958801.jpg",
@@ -121,6 +136,7 @@
   },
   {
     "id": 317372,
+    "type": "game",
     "title": "EXIT: Das Spiel – Das Tor zwischen den Welten",
     "year": 2020,
     "image": "https://cf.geekdo-images.com/y_W45OeGSHHuTUESIs5Oiw__original/img/_4Rvzjn6o3FU9e4NrJDZtTZ5SE8=/0x0/filters:format(jpeg)/pic5988911.jpg",
@@ -129,6 +145,7 @@
   },
   {
     "id": 317432,
+    "type": "game",
     "title": "EXIT: Das Spiel – Das verfluchte Labyrinth",
     "year": 2021,
     "image": "https://cf.geekdo-images.com/jPCgNWp2kHhWPnLJuVe6KA__original/img/4PFmZtaj2l4c6rq4OK76cXzJ9ws=/0x0/filters:format(jpeg)/pic6220831.jpg",
@@ -137,6 +154,7 @@
   },
   {
     "id": 356313,
+    "type": "game",
     "title": "EXIT: Das Spiel – Das Vermächtnis des Weltreisenden",
     "year": 2022,
     "image": "https://cf.geekdo-images.com/0EcFnlbxRBajJkTqTdYhrg__original/img/hxg_i_Q-WYMTkl9CH-mzX2tobjs=/0x0/filters:format(jpeg)/pic7233514.jpg",
@@ -145,6 +163,7 @@
   },
   {
     "id": 366318,
+    "type": "game",
     "title": "EXIT: Das Spiel – Das Verschwinden des Sherlock Holmes",
     "year": 2022,
     "image": "https://cf.geekdo-images.com/9kENSe9ECAsh1MsI9Ry7rg__original/img/NoIW6RKaONzhWsQAbmX-dS2bLEY=/0x0/filters:format(jpeg)/pic7233511.jpg",
@@ -153,6 +172,7 @@
   },
   {
     "id": 283797,
+    "type": "game",
     "title": "EXIT: Das Spiel – Der Flug ins Ungewisse",
     "year": 2019,
     "image": "https://cf.geekdo-images.com/7kTyrflx3HjvkIHzkTCSkA__original/img/Eu2yqkrPS1oisjzAfMuajqoLBhE=/0x0/filters:format(jpeg)/pic5300129.jpg",
@@ -161,6 +181,7 @@
   },
   {
     "id": 295945,
+    "type": "game",
     "title": "EXIT: Das Spiel – Der Friedhof der Finsternis",
     "year": 2020,
     "image": "https://cf.geekdo-images.com/qTyIMMQ9N-EC0cCaPv9NDQ__original/img/Gyz5FXhDVh3I5CN0vwuiPezPyDc=/0x0/filters:format(jpeg)/pic5536690.jpg",
@@ -169,6 +190,7 @@
   },
   {
     "id": 383479,
+    "type": "game",
     "title": "EXIT: Das Spiel – Der Gefängnisausbruch",
     "year": 2023,
     "image": "https://cf.geekdo-images.com/06y_k3eccJPd9l1oNeLX4g__original/img/PEFLUOpmcLYc6xv3kKCepPGyW8I=/0x0/filters:format(jpeg)/pic7962705.jpg",
@@ -177,6 +199,7 @@
   },
   {
     "id": 283934,
+    "type": "game",
     "title": "EXIT: Das Spiel – Der Raub auf dem Mississippi",
     "year": 2019,
     "image": "https://cf.geekdo-images.com/lAtgcsdOBVgepR_9smwWmw__original/img/FMZbEvsUuiCG83WjPgyFWeDc0z0=/0x0/filters:format(jpeg)/pic6210951.jpg",
@@ -185,6 +208,7 @@
   },
   {
     "id": 226522,
+    "type": "game",
     "title": "EXIT: Das Spiel – Der Tote im Orient-Express",
     "year": 2017,
     "image": "https://cf.geekdo-images.com/atCG4ujYJ-L5LKID3ouz8g__original/img/aNnKLFIAKO-A5yJYA2KzcfjmPWw=/0x0/filters:format(jpeg)/pic5320930.jpg",
@@ -193,6 +217,7 @@
   },
   {
     "id": 226518,
+    "type": "game",
     "title": "EXIT: Das Spiel – Der versunkene Schatz",
     "year": 2017,
     "image": "https://cf.geekdo-images.com/Qy3-Sz1IZB5v4n3uAZ29TA__original/img/MFIOB9BkQ78LKEi4VpsqJ8Y79FA=/0x0/filters:format(jpeg)/pic3958802.jpg",
@@ -201,6 +226,7 @@
   },
   {
     "id": 295944,
+    "type": "game",
     "title": "EXIT: Das Spiel – Der verwunschene Wald",
     "year": 2020,
     "image": "https://cf.geekdo-images.com/7B7-6vDlBA8MBzkqWkj9RA__original/img/pd3u3ML2N92GL80WesRVA3F0T1M=/0x0/filters:format(jpeg)/pic5536689.jpg",
@@ -209,6 +235,7 @@
   },
   {
     "id": 376477,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die Akademie der Zauberkünste",
     "year": 2023,
     "image": "https://cf.geekdo-images.com/ev-vPH3MHXblRe_HvOvMNQ__original/img/wWtvSdn5pGKXa19gPlEK8gHHatQ=/0x0/filters:format(jpeg)/pic7962707.jpg",
@@ -217,6 +244,7 @@
   },
   {
     "id": 324853,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die Entführung in Fortune City",
     "year": 2021,
     "image": "https://cf.geekdo-images.com/BsWdh2oF2CkzLMmO5JwkFg__original/img/TtDUwE9Jv31aFoU9hyQ3tKaR1cs=/0x0/filters:format(jpeg)/pic6220828.jpg",
@@ -225,6 +253,7 @@
   },
   {
     "id": 269968,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die Geisterbahn des Schreckens",
     "year": 2019,
     "image": "https://cf.geekdo-images.com/LvqhO8Rwm-DcUoVWksOuEQ__original/img/6X2_vNL668U_-BbLuloT22CJEVA=/0x0/filters:format(jpeg)/pic4597147.jpg",
@@ -233,6 +262,7 @@
   },
   {
     "id": 203416,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die Grabkammer des Pharao",
     "year": 2016,
     "image": "https://cf.geekdo-images.com/fGO2BYF3whgNaSBZMVSO9g__original/img/rSb6fWP88631gEAuYcZX-4pRpLk=/0x0/filters:format(jpeg)/pic3332423.jpg",
@@ -241,6 +271,7 @@
   },
   {
     "id": 376478,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die Jagd durch Amsterdam",
     "year": 2023,
     "image": "https://cf.geekdo-images.com/bLdXaCeY85qaVPAFoRYFIg__original/img/5OGIezrRLSgfp6t_2ylp5VB_Vd4=/0x0/filters:format(jpeg)/pic7962706.jpg",
@@ -249,6 +280,7 @@
   },
   {
     "id": 255675,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die Katakomben des Grauens",
     "year": 2018,
     "image": "https://cf.geekdo-images.com/nt5bCHIRn9swQx4bQlgPUQ__original/img/swuE4Mert20Jm_uBdNQtbhWLjck=/0x0/filters:format(png)/pic4597125.png",
@@ -257,6 +289,7 @@
   },
   {
     "id": 269967,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die Känguru-Eskapaden",
     "year": 2019,
     "image": "https://cf.geekdo-images.com/vpiGNSz8PSD-2Li8rYNkkg__original/img/5UAWJIweIxtahQ6KSNwr7BBBfFQ=/0x0/filters:format(jpeg)/pic4526382.jpg",
@@ -265,6 +298,7 @@
   },
   {
     "id": 445019,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die letzte Vorstellung",
     "year": 2025,
     "image": "https://cf.geekdo-images.com/zvMRPIH0SBv0HVoEIxWQ5w__original/img/VMD2UeFGFB2zO96M9JA7WyIDyqs=/0x0/filters:format(jpeg)/pic8893508.jpg",
@@ -273,6 +307,7 @@
   },
   {
     "id": 341583,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die Rückkehr in die verlassene Hütte",
     "year": 2021,
     "image": "https://cf.geekdo-images.com/l0g6PoUmEmyIbcyXSAY6HA__original/img/_f1oEQNkI0r6fZpkvyIqIhgdCZU=/0x0/filters:format(jpeg)/pic6630220.jpg",
@@ -281,6 +316,7 @@
   },
   {
     "id": 215842,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die Station im ewigen Eis",
     "year": 2017,
     "image": "https://cf.geekdo-images.com/CrqSZVCqD9PJDhGOPBVyHQ__original/img/jKR9BzsmKil8lhCGrgaozbqafrg=/0x0/filters:format(jpeg)/pic3663361.jpg",
@@ -289,6 +325,7 @@
   },
   {
     "id": 226520,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die unheimliche Villa",
     "year": 2018,
     "image": "https://cf.geekdo-images.com/VngJ1B6if4rE9X9OS1N8CQ__original/img/RKyQHUI9O6z3B88EfJmXLz_wXMU=/0x0/filters:format(jpeg)/pic3958803.jpg",
@@ -297,6 +334,7 @@
   },
   {
     "id": 406312,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die Venedig-Verschwörung",
     "year": 2024,
     "image": "https://cf.geekdo-images.com/Uv7WYiixHi1oh7fFjiEWDA__original/img/qRKa6bMLh0-j3tLstKJ2BEUab_I=/0x0/filters:format(jpeg)/pic8647738.jpg",
@@ -305,6 +343,7 @@
   },
   {
     "id": 215840,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die verbotene Burg",
     "year": 2017,
     "image": "https://cf.geekdo-images.com/9rVXzuVqnFkF9WQbk8Y1qg__original/img/lsJzLJvVxbsJi_We49KW09hx_4o=/0x0/filters:format(jpeg)/pic3663362.jpg",
@@ -313,6 +352,7 @@
   },
   {
     "id": 215841,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die vergessene Insel",
     "year": 2017,
     "image": "https://cf.geekdo-images.com/MKkrHjarx6m1uLTVWFn1Cw__original/img/h678iny8mQUHrRHMrEPwFzAWCEQ=/0x0/filters:format(jpeg)/pic3663356.jpg",
@@ -321,6 +361,7 @@
   },
   {
     "id": 203420,
+    "type": "game",
     "title": "EXIT: Das Spiel – Die verlassene Hütte",
     "year": 2016,
     "image": "https://cf.geekdo-images.com/r7cZVZMpP28w3-JQ-EYY7g__original/img/t--VcMKvWX2__eZYvZ7d9V13nvw=/0x0/filters:format(jpeg)/pic3332426.jpg",
@@ -329,6 +370,7 @@
   },
   {
     "id": 446885,
+    "type": "game",
     "title": "EXIT: Das Spiel – Family: Backstage Boys/Jahrmarkt im Dunkeln",
     "year": 2025,
     "image": "https://cf.geekdo-images.com/l_97J7utEHKuy6Z7yu5g9w__original/img/yNBZKJwgezyS5y6yQUdz5pbDhYY=/0x0/filters:format(jpeg)/pic8982465.jpg",
@@ -337,6 +379,7 @@
   },
   {
     "id": 424978,
+    "type": "game",
     "title": "EXIT: Das Spiel – Family: Schloss Gemeinstein/Mission Candyland",
     "year": 2024,
     "image": "https://cf.geekdo-images.com/sQz2IT4lGpwpbHx_Rii7Dw__original/img/H8h6vsoiKGCZH1nonpEQItTlBLQ=/0x0/filters:format(jpeg)/pic8647681.jpg",
@@ -345,6 +388,7 @@
   },
   {
     "id": 406314,
+    "type": "game",
     "title": "EXIT: Das Spiel – Kids: Gruseliger Rätselspaß",
     "year": 2024,
     "image": "https://cf.geekdo-images.com/i-_X5Cd2uj7-ThVSUPrEgQ__original/img/Xs-gH5Mu_JJBzOPr79evSNDu068=/0x0/filters:format(jpeg)/pic8647785.jpg",
@@ -353,6 +397,7 @@
   },
   {
     "id": 376479,
+    "type": "game",
     "title": "EXIT: Das Spiel – Kids: Monstermäßiger Rätselspaß",
     "year": 2023,
     "image": "https://cf.geekdo-images.com/5Xm9X3a-_vmvlOUohc-wVw__original/img/E1oC3HBBtIu3vAdFs7KiamcGttA=/0x0/filters:format(jpeg)/pic7962703.jpg",
@@ -361,6 +406,7 @@
   },
   {
     "id": 366316,
+    "type": "game",
     "title": "EXIT: Das Spiel – Kids: Rätselspaß im Dschungel",
     "year": 2022,
     "image": "https://cf.geekdo-images.com/FZg50RCeyKaK4r6rnQim6A__original/img/8qhppTGcbet3zDtaRxwoDCBr-Gw=/0x0/filters:format(jpeg)/pic7233508.jpg",
@@ -369,6 +415,7 @@
   },
   {
     "id": 341573,
+    "type": "game",
     "title": "EXIT: Das Spiel – Schatten über Mittelerde",
     "year": 2022,
     "image": "https://cf.geekdo-images.com/6YxCIdrBip5DtCZCFVdQsw__original/img/PDjhPYYIJ8E8QrZzKN5SNr1601Q=/0x0/filters:format(jpeg)/pic6630219.jpg",
@@ -377,10 +424,47 @@
   },
   {
     "id": 449213,
+    "type": "game",
     "title": "EXIT: Das Spiel — Kids: Krabbeliger Rätselspaß",
     "year": 2025,
     "image": "https://cf.geekdo-images.com/gAnZ7hnyrnuksiVHNYjM6A__original/img/NM11xDbXQ0xkiMGhWuSERabiGdE=/0x0/filters:format(png)/pic8965126.png",
     "difficulty": 0,
     "bgg_url": "https://boardgamegeek.com/boardgame/449213"
+  },
+  {
+    "id": 1,
+    "type": "puzzle",
+    "title": "Exit – Das Puzzle: Der Schlüssel von Atlantis",
+    "year": 2023,
+    "image": "https://kosmos-prod.netformic.cloud/Artikel/4002051683962/55047/image-thumb__55047__standardProduct/4002051683962.jpg",
+    "difficulty": 0,
+    "bgg_url": ""
+  },
+  {
+    "id": 2,
+    "type": "puzzle",
+    "title": "Exit – Das Puzzle: Das verborgene Atelier",
+    "year": 2023,
+    "image": "https://cms.kosmos.de/Artikel/4002051683979/55050/image-thumb__55050__standardProduct/4002051683979.jpg",
+    "difficulty": 0,
+    "bgg_url": ""
+  },
+  {
+    "id": 3,
+    "type": "puzzle",
+    "title": "Exit – Das Puzzle: Die Bibliothek der Träume",
+    "year": 2024,
+    "image": "https://kosmos-prod.netformic.cloud/Artikel/4002051684471/63000/image-thumb__63000__standardProduct/4002051684471.jpg",
+    "difficulty": 0,
+    "bgg_url": ""
+  },
+  {
+    "id": 4,
+    "type": "puzzle",
+    "title": "Exit – Das Puzzle: Der Auftrag \"Paris\"",
+    "year": 2025,
+    "image": "https://kosmos-prod.netformic.cloud/Artikel/4002051684990/71015/image-thumb__71015__standardProduct/4002051684990.jpg",
+    "difficulty": 0,
+    "bgg_url": ""
   }
 ]

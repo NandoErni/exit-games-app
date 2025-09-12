@@ -3,7 +3,7 @@
     255675, 283797, 341583, 203420, 283934, 269967, 324853, 356313, 376478,
     383479, 226520, 215841, 215840, 298282, 333516, 226522, 445019, 215842,
     244918, 269968, 295944, 317432, 366318, 203417, 341573, 295945, 226518,
-    298281, 437214, 376477, 226519
+    298281, 437214, 376477, 226519, 4
   ],
   "gameIDsPlayed": {
     "333516": {
@@ -213,6 +213,17 @@
       "stars": 7,
       "bestPuzzle": "Big Win",
       "mostDifficultPuzzle": "Gemälde",
+      "mostBeautifulMoment": ""
+    },
+    "4": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2025-09-06",
+      "location": "El Winti Gayes",
+      "time": "",
+      "helpCardsUsed": 0,
+      "stars": 0,
+      "bestPuzzle": "",
+      "mostDifficultPuzzle": "",
       "mostBeautifulMoment": ""
     }
   }

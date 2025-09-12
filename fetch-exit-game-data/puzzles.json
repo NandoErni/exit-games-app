@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "puzzle",
+    "title": "Exit – Das Puzzle: Der Schlüssel von Atlantis",
+    "year": 2023,
+    "image": "https://kosmos-prod.netformic.cloud/Artikel/4002051683962/55047/image-thumb__55047__standardProduct/4002051683962.jpg",
+    "difficulty": 0,
+    "bgg_url": ""
+  },
+  {
+    "id": 2,
+    "type": "puzzle",
+    "title": "Exit – Das Puzzle: Das verborgene Atelier",
+    "year": 2023,
+    "image": "https://cms.kosmos.de/Artikel/4002051683979/55050/image-thumb__55050__standardProduct/4002051683979.jpg",
+    "difficulty": 0,
+    "bgg_url": ""
+  },
+  {
+    "id": 3,
+    "type": "puzzle",
+    "title": "Exit – Das Puzzle: Die Bibliothek der Träume",
+    "year": 2024,
+    "image": "https://kosmos-prod.netformic.cloud/Artikel/4002051684471/63000/image-thumb__63000__standardProduct/4002051684471.jpg",
+    "difficulty": 0,
+    "bgg_url": ""
+  },
+  {
+    "id": 4,
+    "type": "puzzle",
+    "title": "Exit – Das Puzzle: Der Auftrag \"Paris\"",
+    "year": 2025,
+    "image": "https://kosmos-prod.netformic.cloud/Artikel/4002051684990/71015/image-thumb__71015__standardProduct/4002051684990.jpg",
+    "difficulty": 0,
+    "bgg_url": ""
+  }
+]

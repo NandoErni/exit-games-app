@@ -13,6 +13,7 @@ const gameFilters = [
   //"profi",
   "not-owned",
   "owned",
+  "owned-but-not-played",
   "played",
   "not-played",
   "advent-calendar",
@@ -27,6 +28,9 @@ const filterFunctions: Record<GameFilter, (game: Game) => boolean> = {
   //"profi": (game) => true,
   "not-owned": (game) => !myGamesData.gameIDsOwned.includes(game.id),
   owned: (game) => myGamesData.gameIDsOwned.includes(game.id),
+  "owned-but-not-played": (game) =>
+    myGamesData.gameIDsOwned.includes(game.id) &&
+    !(game.id in myGamesData.gameIDsPlayed),
   played: (game) => game.id in myGamesData.gameIDsPlayed,
   "not-played": (game) => !(game.id in myGamesData.gameIDsPlayed),
   "advent-calendar": (game) =>
@@ -47,7 +51,7 @@ export default function Games({ games }: GamesProps) {
             onClick={() => setGameFilter(filter)}
             className="cursor-pointer"
           >
-            {filter.replace("-", " ")}
+            {filter.replace(/-/g, " ")}
           </Badge>
         ))}
       </div>
