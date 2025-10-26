@@ -236,6 +236,17 @@
       "bestPuzzle": "Marie finden & Bild der Malerin",
       "mostDifficultPuzzle": "Schirme zählen",
       "mostBeautifulMoment": ""
+    },
+    "255675": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2025-10-26",
+      "location": "El Winti Gayes",
+      "time": "104:14",
+      "helpCardsUsed": 4,
+      "stars": 9,
+      "bestPuzzle": "Schädel + Knochen",
+      "mostDifficultPuzzle": "Ritual",
+      "mostBeautifulMoment": ""
     }
   }
 }
