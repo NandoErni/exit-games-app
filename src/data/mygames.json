@@ -247,6 +247,28 @@
       "bestPuzzle": "Schädel + Knochen",
       "mostDifficultPuzzle": "Ritual",
       "mostBeautifulMoment": ""
+    },
+    "2": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2025-09-21",
+      "location": "El Winti Gayes",
+      "time": "",
+      "helpCardsUsed": 0,
+      "stars": 0,
+      "bestPuzzle": "Perspektive",
+      "mostDifficultPuzzle": "Flakons",
+      "mostBeautifulMoment": ""
+    },
+    "376478": {
+      "players": ["Nando Erni", "Kally Künnap", "Timon Weder"],
+      "date": "2025-09-21",
+      "location": "El Winti Gayes",
+      "time": "79:38",
+      "helpCardsUsed": 0,
+      "stars": 9,
+      "bestPuzzle": "Fächer / Brücke",
+      "mostDifficultPuzzle": "",
+      "mostBeautifulMoment": "Unterstützung von Hugo"
     }
   }
 }
