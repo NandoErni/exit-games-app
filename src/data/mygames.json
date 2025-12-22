@@ -269,6 +269,17 @@
       "bestPuzzle": "Fächer / Brücke",
       "mostDifficultPuzzle": "",
       "mostBeautifulMoment": "Unterstützung von Hugo"
+    },
+    "269967": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2025-12-18",
+      "location": "El Winti Gayes",
+      "time": "89:33",
+      "helpCardsUsed": 3,
+      "stars": 6,
+      "bestPuzzle": "Tücher falten",
+      "mostDifficultPuzzle": "Telefonieren (Pfad)",
+      "mostBeautifulMoment": ""
     }
   }
 }
