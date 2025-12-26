@@ -23,7 +23,7 @@ export default function App() {
         <ModeToggle />
       </div>
       <div className="w-full flex flex-col items-center">
-        <Navbar />
+        <Navbar games={games} />
 
         <Separator className="mb-6" />
         <Games games={games} />
