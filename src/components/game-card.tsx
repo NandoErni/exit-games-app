@@ -42,12 +42,18 @@ const dateTimeFormatOptions: Intl.DateTimeFormatOptions = {
   day: "numeric",
 };
 
+const dateTimeFormatOptionsAdventCalendar: Intl.DateTimeFormatOptions = {
+  year: "numeric",
+  month: "long",
+};
+
 export default function GameCard({ game }: Props) {
   const [open, setOpen] = useState(false);
   const gameMetaData = (
     myGamesData.gameIDsPlayed as Record<string, GameMetaData>
   )[String(game.id)];
   const hasBeenSolved = gameMetaData !== undefined;
+  const isAdventCalendar = game.title.toLowerCase().includes("adventskalender");
   const hasBeenBought = myGamesData.gameIDsOwned.includes(game.id);
 
   return (
@@ -84,14 +90,25 @@ export default function GameCard({ game }: Props) {
           <DrawerHeader>
             <DrawerTitle>{game.title}</DrawerTitle>
             {hasBeenSolved ? (
-              <DrawerDescription className="text-success">
-                This case has been solved on{" "}
-                {new Date(gameMetaData?.date).toLocaleDateString(
-                  "en-GB",
-                  dateTimeFormatOptions
-                )}{" "}
-                at {gameMetaData?.location} in {gameMetaData?.time}
-              </DrawerDescription>
+              isAdventCalendar ? (
+                <DrawerDescription className="text-success">
+                  This advent calendar has been solved in{" "}
+                  {new Date(gameMetaData?.date).toLocaleDateString(
+                    "en-GB",
+                    dateTimeFormatOptionsAdventCalendar
+                  )}{" "}
+                  at {gameMetaData?.location}
+                </DrawerDescription>
+              ) : (
+                <DrawerDescription className="text-success">
+                  This case has been solved on{" "}
+                  {new Date(gameMetaData?.date).toLocaleDateString(
+                    "en-GB",
+                    dateTimeFormatOptions
+                  )}{" "}
+                  at {gameMetaData?.location} in {gameMetaData?.time}
+                </DrawerDescription>
+              )
             ) : hasBeenBought ? (
               <DrawerDescription className="text-destructive">
                 This case has not yet been solved but you own it
@@ -119,10 +136,13 @@ export default function GameCard({ game }: Props) {
                     </Badge>
                   ))}
                 </div>
-                <div className="mb-2 flex justify-center flex-wrap gap-5">
-                  <p>🃏 {gameMetaData?.helpCardsUsed || 0} Help Cards</p>
-                  <p>⭐ {gameMetaData?.stars || 0}</p>
-                </div>
+
+                {!isAdventCalendar && (
+                  <div className="mb-2 flex justify-center flex-wrap gap-5">
+                    <p>🃏 {gameMetaData?.helpCardsUsed || 0} Help Cards</p>
+                    <p>⭐ {gameMetaData?.stars || 0}</p>
+                  </div>
+                )}
 
                 {gameMetaData?.bestPuzzle && (
                   <p className="mb-2">Best puzzle: {gameMetaData.bestPuzzle}</p>
