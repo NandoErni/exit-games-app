@@ -3,7 +3,7 @@
     255675, 283797, 341583, 203420, 283934, 269967, 324853, 356313, 376478,
     383479, 226520, 215841, 215840, 298282, 333516, 226522, 445019, 215842,
     244918, 269968, 295944, 317432, 366318, 203417, 341573, 295945, 226518,
-    298281, 437214, 376477, 226519, 203416, 4, 3, 2, 445020
+    298281, 437214, 376477, 226519, 203416, 4, 3, 2, 445020, 406312
   ],
   "gameIDsPlayed": {
     "333516": {
@@ -279,6 +279,17 @@
       "stars": 6,
       "bestPuzzle": "Tücher falten",
       "mostDifficultPuzzle": "Telefonieren (Pfad)",
+      "mostBeautifulMoment": ""
+    },
+    "445020": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2025-12-24",
+      "location": "El Winti Gayes & Baden",
+      "time": "",
+      "helpCardsUsed": 0,
+      "stars": -1,
+      "bestPuzzle": "Geräusche",
+      "mostDifficultPuzzle": "",
       "mostBeautifulMoment": ""
     }
   }
