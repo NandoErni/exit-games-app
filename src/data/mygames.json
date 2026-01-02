@@ -291,6 +291,28 @@
       "bestPuzzle": "Geräusche",
       "mostDifficultPuzzle": "",
       "mostBeautifulMoment": ""
+    },
+    "406312": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2025-12-26",
+      "location": "Baden",
+      "time": "96:59",
+      "helpCardsUsed": 1,
+      "stars": 6,
+      "bestPuzzle": "Wasser",
+      "mostDifficultPuzzle": "",
+      "mostBeautifulMoment": "Ines... eins!"
+    },
+    "283934": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2025-12-25",
+      "location": "Baden",
+      "time": "79:16",
+      "helpCardsUsed": 1,
+      "stars": 8,
+      "bestPuzzle": "Etwas im Rad!",
+      "mostDifficultPuzzle": "Grossbuchstaben",
+      "mostBeautifulMoment": ""
     }
   }
 }
