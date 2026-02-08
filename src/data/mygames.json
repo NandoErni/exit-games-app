@@ -313,6 +313,17 @@
       "bestPuzzle": "Etwas im Rad!",
       "mostDifficultPuzzle": "Grossbuchstaben",
       "mostBeautifulMoment": ""
+    },
+    "226520": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2026-02-02",
+      "location": "Zimmer 232 in Catelonia Punta del Rey, Tenerife",
+      "time": "63:45",
+      "helpCardsUsed": 2,
+      "stars": 7,
+      "bestPuzzle": "Insel stechen",
+      "mostDifficultPuzzle": "Ornamente",
+      "mostBeautifulMoment": ""
     }
   }
 }
