@@ -324,6 +324,17 @@
       "bestPuzzle": "Insel stechen",
       "mostDifficultPuzzle": "Ornamente",
       "mostBeautifulMoment": ""
+    },
+    "3": {
+      "players": ["Nando Erni", "Kally Künnap"],
+      "date": "2026-02-19",
+      "location": "El Winti Gayes",
+      "time": "",
+      "helpCardsUsed": 0,
+      "stars": 0,
+      "bestPuzzle": "Schlussrätsel",
+      "mostDifficultPuzzle": "Globus",
+      "mostBeautifulMoment": ""
     }
   }
 }
