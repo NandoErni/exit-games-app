@@ -50,7 +50,7 @@ async function fetchGameDetails(ids) {
   return (data.items.item || []).map((game) => {
     const title = pickGermanTitle(game.name || []);
     const year = parseInt(game.yearpublished?.[0]?.$.value) || null;
-    const image = game.image?.[0] || null;
+    const image = game.image?.[0] || undefined;
     const weight =
       parseFloat(game.statistics?.[0]?.ratings?.[0]?.averageweight?.[0]?.$.value);
 
