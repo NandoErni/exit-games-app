@@ -1,6 +1,7 @@
 // fetch-exit-games.js
 import fetch from "node-fetch";
 import fs from "fs";
+import "dotenv/config";
 import { parseStringPromise } from "xml2js";
 
 const SEARCH_URL =
@@ -10,12 +11,22 @@ const THING_URL = "https://boardgamegeek.com/xmlapi2/thing";
 // Matches variants like "EXIT: Das Spiel – …", "EXIT – Das Spiel …", even with ® and different dashes
 const EXIT_DE_REGEX = /^EXIT(?:\s*®)?\s*[:\-–]\s*Das Spiel\b/i;
 
+
 async function fetchXML(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Failed to fetch ${url} (${res.status})`);
+  const res = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${process.env.BGG_BEARER_TOKEN}`,
+    },
+  });
+
+  if (!res.ok) {
+    throw new Error(`Failed to fetch ${url} (${res.status})`);
+  }
+
   const text = await res.text();
   return parseStringPromise(text);
 }
+
 
 function pickGermanTitle(nameNodes = []) {
   // Gather all name values
@@ -56,6 +67,9 @@ async function fetchGameDetails(ids) {
 }
 
 async function main() {
+  if (!process.env.BGG_BEARER_TOKEN) {
+    throw new Error("Missing BGG_BEARER_TOKEN in .env file");
+  }
   console.log("🔍 Searching for EXIT games...");
   const searchResult = await fetchXML(SEARCH_URL);
 
