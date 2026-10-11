@@ -15,7 +15,7 @@ export interface Game {
   id: number;
   title: string;
   year: number;
-  image?: string;
+  image?: string | null;
   difficulty: number;
   bgg_url?: string;
 }
