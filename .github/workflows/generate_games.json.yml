@@ -1,23 +1,31 @@
 name: Regenerate games.json
-on: 
+
+on:
   schedule:
-    - cron: '0 0 * * 5'
+    - cron: '0 0 * * *'
   workflow_dispatch:
+
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
-      - run: node --version
-      - run: npm --version
       - uses: actions/checkout@v4
-      - run: cd $GITHUB_WORKSPACE
-      - run: cd fetch-exit-game-data
-      - run: npm install
+
+      - name: Check Node.js
+        run: |
+          node --version
+          npm --version
+
+      - name: Install dependencies
+        run: npm install
         working-directory: fetch-exit-game-data
 
       - name: Generate games.json
         run: node fetch-exit-games.js
         working-directory: fetch-exit-game-data
+        env:
+          BGG_BEARER_TOKEN: ${{ secrets.BGG_BEARER_TOKEN }}
 
       - name: Copy games.json to src/data
         run: cp fetch-exit-game-data/games.json src/data/games.json
